@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="libs/Box2dWeb-2.1.a.3.min.js"></script>
+	<script src ="libs/jquery-1.11.3.min.js"></script>
+    <script src ="libs/preloadjs-0.6.1.combined.js"></script>
+    <script src = "libs/easeljs-NEXT.combined.js"></script>
+	<style>
+        #easeljsCanvas { 
+        background-image: url("assets/Splash.png");
+        background-color:black;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+        #box2dCanvas {
+        background-image: url("assets/Splash.png");
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+    </style>
+</head>
+    
+<body>
+    <canvas id="box2dCanvas" width="232" height = "256"></canvas>
+    <canvas id="easeljsCanvas" width="232" height = "256"></canvas>
+    
+    <!--<audio id = "SFX1"></audio>
+    <audio id = "SFX2"></audio>
+    <audio id = "SFX3"></audio>-->
+    <br>
+    <script src = "functions/init.js"></script>
+    <script src = "functions/functions.js"></script>
+    <script src = "functions/controls.js"></script>
+    <script src = "functions/Easel.js"></script>
+    <script src = "functions/MapCreation.js"></script>
+    <script src = "functions/Ghosts.js"></script>
+    <script src = "index.js"></script>
+</body>
+</html>
